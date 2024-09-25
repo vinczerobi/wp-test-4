@@ -1,0 +1,16 @@
+{
+  "name": "yourname/wordpress-site",
+  "description": "A WordPress instance managed by Composer",
+  "require": {
+    "johnpbloch/wordpress": "*",
+    "vlucas/phpdotenv": "^5.4" 
+  },
+  "extra": {
+    "wordpress-install-dir": "wp"
+  },
+  "config": {
+    "allow-plugins": {
+      "johnpbloch/wordpress-core-installer": true
+    }
+  }
+}
